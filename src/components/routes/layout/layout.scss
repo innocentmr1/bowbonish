@@ -1,0 +1,36 @@
+@use "../../../responsive.scss" as *; // Import and use without a namespace
+
+.layout {
+  // background-color: red;
+  height: 100vh;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+
+  // Apply the media query mixin
+  @include lg {
+    // No namespace needed if you use `as *`
+    background-color: rgb(247, 245, 245);
+    max-width: 1280px;
+  }
+
+  @include md {
+    // No namespace needed if you use `as *`
+    background-color: rgb(186, 203, 234);
+    max-width: 768px;
+  }
+
+  @include sm {
+    // No namespace needed if you use `as *`
+    background-color: rgb(239, 200, 200);
+    max-width: 648px;
+  }
+  .content {
+    // flex: 1;
+    height: calc(100vh - 100px);
+  }
+}

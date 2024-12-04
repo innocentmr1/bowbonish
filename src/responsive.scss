@@ -1,0 +1,23 @@
+// responsive.scss
+
+// Mixin for small screens
+@mixin sm {
+    @media (max-width: 738px) {
+      @content;
+    }
+  }
+  
+  // Mixin for medium screens
+  @mixin md {
+    @media (min-width: 739px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+  
+  // Mixin for large screens
+  @mixin lg {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+  

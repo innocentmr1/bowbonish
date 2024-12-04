@@ -1,0 +1,78 @@
+export const Data = [
+  {
+    id: 1,
+    title: "lekki billbord",
+    img: "https://via.placeholder.com/200",
+    size: "5mm X 6mm",
+    price: 1000000,
+    address: "24,ijaoye street, jibowu, yaba, lagos",
+    latitude: 6.4533,
+    longitude: 3.5312,
+  },
+  {
+    id: 2,
+    title: "ikeja billbord",
+    img: "https://via.placeholder.com/200",
+    size: "5mm X 6mm",
+    price: 1000000,
+    address: "24,ijaoye street, jibowu, yaba, lagos",
+    latitude: 6.4531,
+    longitude: 3.4103,
+  },
+  {
+    id: 3,
+    title: "ikorodu billbord",
+    img: "https://via.placeholder.com/200",
+    size: "5mm X 6mm",
+    price: 1000000,
+    address: "24,ijaoye street, jibowu, yaba, lagos",
+    latitude: 6.4281,
+    longitude: 3.4215,
+  },
+  {
+    id: 4,
+    title: "ketu billbord",
+    img: "https://via.placeholder.com/200",
+    size: "5mm X 6mm",
+    price: 1000000,
+    address: "24,ijaoye street, jibowu, yaba, lagos",
+    latitude: 6.5983,
+    longitude: 3.3516,
+  },
+  {
+    id: 5,
+    title: "yaba billbord",
+    img: "https://via.placeholder.com/200",
+    size: "5mm X 6mm",
+    price: 1000000,
+    address: "24,ijaoye street, jibowu, yaba, lagos",
+    latitude: 6.4531,
+    longitude: 3.4187,
+  },
+];
+
+export const singlePost = {
+  id: "1",
+  title: "Lekki Billboard",
+  price: 500,
+  images: [
+    "https://images.pexels.com/photos/1031700/pexels-photo-1031700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=10",
+    "https://images.pexels.com/photos/2422404/pexels-photo-2422404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/1054417/pexels-photo-1054417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  ],
+  bedRoom: 2,
+  bathroom: 1,
+  size: 861,
+  latitude: 6.4531,
+  longitude: 3.4187,
+  city: "Lagos",
+  address: "lekki lagos",
+  school: "250m away",
+  bus: "100m away",
+  restaurant: "20m away",
+  description: "new lekki billbord for your use",
+};
+
+
+
